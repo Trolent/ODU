@@ -11,6 +11,6 @@ echo zsh >> ~/.bashrc
 
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
-sed -i 's/^plugins=(git)$/plugins=(git zsh-syntax-highlighting)/g' ~/.zshrc`
+sed -i 's/^plugins=(git)$/plugins=(git zsh-syntax-highlighting)/g' ~/.zshrc
 
 mc mirror s3/rolland ~/
